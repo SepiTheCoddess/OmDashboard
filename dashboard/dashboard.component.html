@@ -1,0 +1,8 @@
+<div class="section">
+  <h2>{{ visitors.title }}</h2>
+  <app-visitors *ngIf="initialized" [visitors]="visitors"></app-visitors>
+  <br><br><hr><br>
+  <div class="section">
+    <h2>{{ traffics.title }}</h2>
+  <app-traffics *ngIf="initialized" [traffics]="traffics"></app-traffics></div>
+</div>
